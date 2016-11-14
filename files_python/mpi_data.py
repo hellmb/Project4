@@ -87,8 +87,7 @@ print 'Numerical critical temperature: T_c = %g' % (Tc_numerical)
 '''
 Numerical critical temperature: T_c = 2.29375
 '''
-# Metropolis algorithm not very efficient close to the critical temperature, 
-# as seen by the susceptibility values
+
 
 
 

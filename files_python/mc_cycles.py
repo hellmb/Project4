@@ -4,29 +4,7 @@ from numpy import zeros, histogram
 from scipy import stats
 
 
-TwoByTwo = False
-if TwoByTwo:
-    L = 2
-
-    read_file = loadtxt('mc_cycles2.txt')
-
-    E = read_file[:,0]
-    M = read_file[:,1]
-    mc_cycles = read_file[:,2]
-
-    f, axarr = subplots(2)
-    axarr[0].plot(mc_cycles, E)
-    axarr[0].set_title(r'Variation of energy for a $2 \times 2$ lattice', fontsize=18)
-    axarr[0].set_ylabel(r'Energy', fontsize=15)
-
-    axarr[1].plot(mc_cycles, M)
-    axarr[1].set_title(r'Variation in magnetization for a $2 \times 2$ lattice', fontsize=18)
-    axarr[1].set_xlabel(r'Monte Carlo cycles', fontsize=15)
-    axarr[1].set_ylabel(r'Magnetization', fontsize=15)
-    axarr[1].set_ylim(1, 5)
-    show()
-
-TwentyByTwenty = True
+TwentyByTwenty = False
 if TwentyByTwenty:
     L = 20
 
