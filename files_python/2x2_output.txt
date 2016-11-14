@@ -1,0 +1,8 @@
+Mean energy: -7.98333
+Mean magnetic moment: 3.99446
+Mean energy squared: 63.8666
+Mean energy x mean energy: 63.7335
+Mean magnetic moment squared: 15.9722
+Mean magnetic moment x mean magnetic moment: 15.9557
+Specific heat: 0.133098
+Magnetic susceptibility: 0.0165692
