@@ -1,6 +1,6 @@
 # Project4
 
-\textit{project4 folder}:
+project4 folder:
 
 main.cpp takes four input arguments. The first argument specifies the lattice size, the second argument
 is the number of Monte Carlo cycles, and the third argument is the temperature. The fourth argument is a 
