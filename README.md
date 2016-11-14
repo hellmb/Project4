@@ -13,7 +13,7 @@ functions.cpp and functions.h contains functions that are called from main.cpp
 
 openmpi_project4 folder:
 
-main.cpp runs with a custom executable, where we writes '-n <number of processors> <executable>'. This 
+main.cpp runs with a custom executable, where we write '-n \<number of processors\> \<executable\>'. This 
 specifies the number of processors we distribute the workload to for a given executable. 
 
 functions_mpi.cpp and functions_mpi.h contains functions that are called from main.cpp
