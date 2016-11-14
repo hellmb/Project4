@@ -1,6 +1,6 @@
 # Project4
 
-## project4 folder:
+## project4 folder
 
 main.cpp takes four input arguments from the command line: 
 - The first argument specifies the lattice size
@@ -11,13 +11,13 @@ main.cpp takes four input arguments from the command line:
 functions.cpp and functions.h contains functions that are called from main.cpp
 
 
-## openmpi_project4 folder:
+## openmpi_project4 folder
 
 main.cpp is a parallelized version of the above program. It runs with a custom executable, where we write '-n \<number of processors\> \<executable\>'. This specifies the number of processors we distribute the workload to for a given executable. 
 
 functions_mpi.cpp and functions_mpi.h contains functions that are called from main.cpp
 
 
-## files_python folder:
+## files_python folder
 
 This folder contains output files and python codes used to obtain the results of the report. 
